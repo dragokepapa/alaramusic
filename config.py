@@ -18,11 +18,11 @@ GROQ_WHISPER_MODEL = getenv("GROQ_WHISPER_MODEL", "whisper-large-v3-turbo")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 
 # Bot and owner info
-OWNER_USERNAME = getenv("OWNER_USERNAME")
-BOT_USERNAME = getenv("BOT_USERNAME")
-BOT_NAME = getenv("BOT_NAME", "Sanya")
-ASSUSERNAME = getenv("ASSUSERNAME", "SANYAassistant")
-MUST_JOIN = getenv("MUST_JOIN", "urstarkz")
+OWNER_USERNAME = getenv("Uhryt")
+BOT_USERNAME = getenv("alaraprobot")
+BOT_NAME = getenv("BOT_NAME", "˹ᴀʟᴀʀᴀ ꭙ ᴍᴜsɪᴄ˼ ♪")
+ASSUSERNAME = getenv("ASSUSERNAME", "alaraassistant")
+MUST_JOIN = getenv("MUST_JOIN", "picslice")
 BASE_URL = "https://api.waifu.pics"
 
 # MongoDB
@@ -32,7 +32,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID"))
 OWNER_ID = int(getenv("OWNER_ID"))
-POST_CHANNEL_ID = int(getenv("POST_CHANNEL_ID", "-1003192209705"))
+POST_CHANNEL_ID = int(getenv("POST_CHANNEL_ID", "-1003733762622"))
 
 # Heroku
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -45,8 +45,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LuxeKernel")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SanyaxSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/OnyxCoders")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+5mEwROfbhjxhYjZl")
 
 # Mini App
 MINI_APP_URL = getenv("MINI_APP_URL", "https://sanyamusic.vercel.app")
